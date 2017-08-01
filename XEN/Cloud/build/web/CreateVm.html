@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Create Virtual Machine</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+    <center>
+        <div style="border: 1px solid black;width:50%">
+            <h2>CREATE VIRTUAL MACHINE</h2>
+            <form method="post" action="CreateVm">
+                <input type="text" style="margin: 5px" placeholder="Name of Vm" name="namevm"><br>
+                SELECT OS:<select name="OS" style="margin: 5px">
+                    <option value="w">Windows 7</option>
+                    <option value="u">Ubuntu 14.04  LTS</option>
+                    <option value="m">MAC OS X</option>
+                </select><br>
+                
+                <input type="submit" style="margin: 5px" value="Create Virtual Machine">
+            </form>
+        </div>
+    </center>
+</body>
+</html>
